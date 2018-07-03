@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 5) do
   create_table "characters", force: :cascade do |t|
     t.string "name"
     t.string "show_id"
+    t.string "actor_id"
   end
 
   create_table "networks", force: :cascade do |t|
