@@ -4,5 +4,6 @@ class Show < ActiveRecord::Base
 
   def build_network(argument)
     the_network = Network.create(argument)
+    shows << the_network
   end
 end
